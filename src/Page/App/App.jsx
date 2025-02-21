@@ -19,6 +19,7 @@ const AppRoutes = () => {
         {path: '/pendientes', element: <Pendientes/>},
         {path: '/campaña', element: <Campaña/>},
         {path: '/maquinarias', element: <Inventario/>},
+        {path: '/torneria/:categoria', element: <Torneria/>},
         {path: '/login', element: <Login/>},
         {path:'*', element: <Notfound />},
       ])
