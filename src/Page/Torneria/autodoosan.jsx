@@ -1,6 +1,6 @@
 import SearchSpare from "../../Components/Layout/search";
 
-const autoeleManitou = () => {
+const AutoeleDoosan= () => {
    const handleSearch = (query) => {
       console.log("Buscando...", query);
     }
@@ -12,5 +12,5 @@ const autoeleManitou = () => {
     );
 }
 
-export default autoeleManitou;
+export default AutoeleDoosan;
 

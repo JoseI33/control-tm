@@ -16,7 +16,7 @@ const Torneria = () => {
                     <p className="card-text">
                       Fabricación de repuestos para tracto elevador Manitou.
                     </p>
-                  <Link to="/tractoelevador">
+                  <Link to="/torneria/tracto">
                     <Button variant="success">Ver mas...</Button>
                     </Link>
                   </div>
@@ -29,7 +29,7 @@ const Torneria = () => {
                     <p className="card-text">
                     Fabricación de repuestos para autoelevador Mitsubishi.
                     </p>
-                    <Link to="/depositos">
+                    <Link to="/torneria/autoelevador-mitsubishi">
                     <Button variant="success">Ver mas...</Button>
                     </Link>
                   </div>
@@ -42,7 +42,7 @@ const Torneria = () => {
                     <p className="card-text">
                     Fabricación de repuestos para autoelevador Doosan.
                     </p>
-                      <Link to="/torneria">
+                      <Link to="/torneria/autoelevador-doosan">
                     <Button variant="success">Ver mas...</Button>
                     </Link>
                   </div>
@@ -55,7 +55,7 @@ const Torneria = () => {
                     <p className="card-text">
                     Fabricación de repuestos para autoelevador Manitou.
                     </p>
-                      <Link to="/torneria">
+                      <Link to="/torneria/autoelevador-manitou">
                     <Button variant="success">Ver mas...</Button>
                     </Link>
                   </div>
@@ -68,7 +68,7 @@ const Torneria = () => {
                     <p className="card-text">
                     Fabricación de repuestos para tractores Jhon Deere y Massey Ferguson.
                     </p>
-                      <Link to="/torneria">
+                      <Link to="/torneria/tractores">
                     <Button variant="success">Ver mas...</Button>
                     </Link>
                   </div>
@@ -81,7 +81,7 @@ const Torneria = () => {
                     <p className="card-text">
                     Fabricación de repuestos para Volcadoras.
                     </p>
-                      <Link to="/torneria">
+                      <Link to="/torneria/volcadoras">
                     <Button variant="success">Ver mas...</Button>
                     </Link>
                   </div>

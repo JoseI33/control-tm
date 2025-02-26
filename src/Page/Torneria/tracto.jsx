@@ -1,4 +1,50 @@
-import { useState } from "react";
+import SearchSpare from "../../Components/Layout/search";
+
+const Tracto = () => {
+   const handleSearch = (query) => {
+      console.log("Buscando...", query);
+    }
+
+    return (
+        <div>
+          <SearchSpare onSearch={handleSearch} />
+        </div>
+    );
+}
+
+export default Tracto;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*import { useState } from "react";
 import { Modal, Button, Form } from "react-bootstrap";
 
 const products = Array.from({ length: 70 }, (_, i) => ({
@@ -87,7 +133,7 @@ const Tracto = () => {
   );
 };
 
-export default Tracto;
+export default Tracto;*/
 
 
 /*import { useState } from 'react';

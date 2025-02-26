@@ -1,6 +1,6 @@
 import SearchSpare from "../../Components/Layout/search";
 
-const Volcadoras = () => {
+const Tractores = () => {
     const handleSearch = (query) => {
         console.log(query);
         }
@@ -11,4 +11,4 @@ const Volcadoras = () => {
     );
 }
 
-export default Volcadoras;
+export default Tractores;
