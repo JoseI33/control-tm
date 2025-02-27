@@ -5,3 +5,17 @@
 .nav-link:hover {
     color: rgb(19, 241, 11) !important;
 }
+
+.custom-dropdown .dropdown-menu {
+    background-color: rgb(0, 0, 0) !important;
+    border: none;
+}
+
+.custom-dropdown .dropdown-item {
+    color: rgb(255, 255, 255) !important;
+}
+
+.custom-dropdown .dropdown-item:hover {
+    background-color: rgb(0, 0, 0) !important;
+    color: rgb(19, 241, 11) !important;
+}

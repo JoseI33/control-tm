@@ -1,7 +1,9 @@
 import { BrowserRouter, useRoutes } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css"
+import NavBar from "../../components/Navbar";
+import Footer from "../../Components/Layout/footer";
 import Home from "../Home";
-import Contact from "../Contact";
+import Horometro from "../Horometros";
 import Torneria from "../Torneria";
 import CardsDetail from "../CardsDetail";
 import Notfound from "../Notfound";
@@ -9,8 +11,6 @@ import Pendientes from "../Pendientes";
 import Campaña from "../Campaña";
 import Login from "../Login";
 import Inventario from '../Maquinarias';
-import NavBar from "../../Components/Navbar";
-import Footer from "../../Components/Layout/footer";
 import Tracto from "../Torneria/tracto";
 import Volcadoras from "../Torneria/volcadora";
 import AutoeleDoosan from "../Torneria/autodoosan";
@@ -21,7 +21,10 @@ import Tractores from "../Torneria/tractores";
 const AppRoutes = () => {
       let routes = useRoutes ([
         {path: '/', element: <Home/>},
-        {path: '/contacto', element: <Contact/>},
+        {path: '/horometro', element: <Horometro/>},
+        {path: '/horometro/controlalquiler', element: <Horometro/>},
+        {path: '/horometro/controlfincas', element: <Horometro/>},
+        {path: '/horometro/controlterceros', element: <Horometro/>},
         {path: '/torneria', element: <Torneria/>},
         {path: '/torneria/tracto', element: <Tracto/>},
         {path: '/torneria/autoelevador-doosan', element: <AutoeleDoosan/>},
