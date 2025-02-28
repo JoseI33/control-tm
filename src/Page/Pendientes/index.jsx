@@ -2,7 +2,7 @@
 const Pendientes = () => {
     return (
         <div>
-            <h1>Pendientes</h1>
+            <h1>Pendientes nuevo</h1>
         </div>
     );
 }
