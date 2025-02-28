@@ -1,4 +1,4 @@
-import SearchSpare from "../../Components/Layout/search";
+import SearchSpare from "../../components/Layout/search";
 
 const autoeleMitsubishi = () => {
    const handleSearch = (query) => {
