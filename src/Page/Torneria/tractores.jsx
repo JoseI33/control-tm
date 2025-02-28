@@ -1,4 +1,4 @@
-import SearchSpare from "../../components/Layout/search";
+import SearchSpare from "../../Components/Layout/search";
 
 const Tractores = () => {
     const handleSearch = (query) => {
